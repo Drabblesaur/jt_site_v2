@@ -1,10 +1,21 @@
-My own personal website. Version 2!
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Improvements
+# Personal Website V2
 
+This repo contains version 2 of my personal website!
 
-## Getting Started
+This is a Next.js project with Tailwind CSS
+
+For [Version 1](https://github.com/Drabblesaur/JT_Site)
+
+## Improvements from Version 1
+
+- Written in Typescript
+- Dark Mode
+- Cleaner Code (Idk what I did for V1 lol)
+- Comments!
+- Written with mobile in mind.
+
+## Running the Site
 
 First, run the development server:
 
@@ -13,7 +24,3 @@ yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the site!
-
-
-
-
