@@ -9,7 +9,7 @@ export default function Document() {
       rel="preconnect" 
       href="https://fonts.gstatic.com"/>
       <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Rubik:wght@400;600&display=swap" rel="stylesheet"></link>
-      <body className='bg-cream dark:bg-cocoa'>
+      <body className='bg-cream dark:bg-cocoa md:bg-idx bg-no-repeat bg-right-bottom'>
         <Main />
         <NextScript />
       </body>

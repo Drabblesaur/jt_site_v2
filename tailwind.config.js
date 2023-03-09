@@ -23,7 +23,7 @@ module.exports = {
         'brand-green': '#479F76',
       },
       backgroundImage: {
-        'index' : "url('/public/images/index.jpg')",
+        'idx': "url('/background.svg')",
       },
     },
   },

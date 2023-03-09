@@ -35,15 +35,15 @@ const Navbar = () => {
                 </div>
 
                 {/*Mobile Button*/}
-                <div onClick={handleNav} className="block sm:hidden z-10">
+                <div onClick={handleNav} className="block sm:hidden z-10 m-4">
                 {
-                    nav ? <FiX size={32} color="white"/> : <FiMenu size={32} color="#443C42"/>
+                    nav ? <FiX size={32} className ="stroke-cream"/> : <FiMenu size={32} className="stroke-cocoa dark:stroke-cream"/>
                 }
-                </div>
+                </div> 
                 {/*Mobile Menu*/}
                 <div className={nav ? "sm:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen bg-cocoa text-center ease-in duration-300 text-cream" : "sm:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-cocoa text-center ease-in duration-300 text-cream"}>
                 <ul>
-                    <li className="p-4 text-4xl hover:text-brand-orange">
+                    <li className="p-4 text-4xl hover:text-brand-orange" onClick={handleNav}>
                         <Link href="/about">About</Link>
                     </li>
                     <li className="p-4 text-4xl hover:text-brand-orange">
