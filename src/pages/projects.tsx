@@ -8,7 +8,7 @@ export default function Projects() {
       </div>
       <div className="grid place-content-center mt-2 px-4">
         <section className="text-clip lg:w-[900px] text-center">
-          <p className="text-xl text-cream">
+          <p className="text-xl text-cocoa-dark dark:text-cream">
             Here are some of my current projects!
           </p>
         </section>

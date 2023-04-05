@@ -9,7 +9,7 @@ export default function About() {
       </div>
       <div className="grid place-content-center mt-2 px-4">
         <section className="text-clip lg:w-[900px]">
-          <p className="text-xl text-cream">
+          <p className="text-xl text-cocoa-dark dark:text-cream">
             HI! I&apos;m Johnny! I&apos;m a student at the University of
             California,Riverside studying Computer Science with a passion for
             Design and Code. I&apos;m currently looking for an internship for

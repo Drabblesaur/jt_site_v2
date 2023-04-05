@@ -28,13 +28,13 @@ const Footer = () => {
         {/*Social Media Buttons*/}
         <div className="flex space-x-2 flex-row justify-items-end">
           <div className="w-[50px] h-[50px] bg-black grid place-content-center rounded-md dark:border-2 dark:border-cocoa-light">
-            <a href="https://github.com/Drabblesaur">
+            <a href="https://github.com/Drabblesaur" target="blank">
               {" "}
               <FiGithub size={32} color="white" />{" "}
             </a>
           </div>
           <div className="w-[50px] h-[50px] bg-[#0077B5] grid place-content-center rounded-md dark:border-2 dark:border-cocoa-light">
-            <a href="https://github.com/Drabblesaur">
+            <a href="https://www.linkedin.com/in/johnnyto015/" target="blank">
               {" "}
               <BsLinkedin size={32} color="white" />{" "}
             </a>
