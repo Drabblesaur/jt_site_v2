@@ -3,11 +3,11 @@ import AboutHeader from "components/svg/about_header";
 import JTLogo from "components/svg/jt_logo";
 export default function About() {
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto backdrop-blur-sm  p-6 rounded-[10px] bg-cocoa-dark/50">
       <div className="grid place-content-center ">
         <AboutHeader />
       </div>
-      <div className="grid place-content-center mt-2 px-4">
+      <div className="grid place-content-center mt-2 px-4 ">
         <section className="text-clip lg:w-[900px]">
           <p className="text-xl text-cocoa-dark dark:text-cream">
             HI! I&apos;m Johnny! I&apos;m a student at the University of
