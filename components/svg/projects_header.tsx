@@ -2,7 +2,7 @@ import * as React from "react";
 import { SVGProps } from "react";
 const ProjectHeader = (props: SVGProps<SVGSVGElement>) => (
   <svg
-    className="fill-cocoa-dark p-2 dark:fill-cream sm:w-[388px]"
+    className="p-2 fill-cocoa-dark md:fill-cream sm:w-[388px]  dark:fill-cream dark:md:fill-cream"
     width={359}
     height={76}
     viewBox="0 0 359 76"

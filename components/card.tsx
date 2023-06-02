@@ -10,7 +10,7 @@ interface Cardprops {
 
 const Card = (props: Cardprops) => {
   return (
-    <div className="bg-white border-4 border-cocoa-light dark:bg-cocoa-dark  p-6 rounded-[10px] w-max-[300px] w-full flex flex-col justify-between  text-black dark:text-cream mb-4">
+    <div className="bg-white dark:bg-cocoa-dark  p-6 rounded-[10px] w-max-[300px] w-full flex flex-col justify-between  text-black dark:text-cream mb-4 border-4 dark:border-cocoa-light ">
       <div className="mb-2">
         <h1 className="font-rubik-MonoOne mb-1">{props.name}</h1>
         <div
@@ -21,7 +21,7 @@ const Card = (props: Cardprops) => {
         </div>
         <p className="font-rubik text-sm">{props.text}</p>
       </div>
-      <div className="w-[50px] h-[50px] bg-black grid place-content-center rounded-md dark:border-2 dark:border-cocoa-light">
+      <div className="w-[50px] h-[50px] bg-black grid place-content-center rounded-md ease-in-out duration-200 border-transparent border-2 hover:border-cocoa-light">
         <a href={props.href} target="blank">
           <FiGithub size={32} color="white" />
         </a>

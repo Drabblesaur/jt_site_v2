@@ -19,17 +19,17 @@ const Navbar = () => {
           <Link href="/">
             <JTLogo />
           </Link>
-          <ul className="hidden sm:flex text-cocoa dark:text-cream">
-            <li className="p-4 hover:text-brand-orange">
+          <ul className="hidden sm:flex text-cream">
+            <li className="p-4 ease-in-out duration-200 hover:text-brand-orange">
               <Link href="/about">About</Link>
             </li>
-            <li className="p-4 hover:text-brand-orange">
+            <li className="p-4 ease-in-out duration-200 hover:text-brand-orange">
               <Link href="/projects">Projects</Link>
             </li>
-            <li className="p-4 hover:text-brand-orange">
+            <li className="p-4 ease-in-out duration-200 hover:text-brand-orange">
               <Link href="/resume">Resume</Link>
             </li>
-            <li className="p-4 hover:text-brand-orange">
+            <li className="p-4 ease-in-out duration-200 hover:text-brand-orange">
               <Link href="/contact">Contact</Link>
             </li>
           </ul>
@@ -53,25 +53,25 @@ const Navbar = () => {
         >
           <ul>
             <li
-              className="p-4 text-4xl hover:text-brand-orange"
+              className="p-4 text-4xl ease-in-out duration-200 hover:text-brand-orange"
               onClick={handleNav}
             >
               <Link href="/about">About</Link>
             </li>
             <li
-              className="p-4 text-4xl hover:text-brand-orange"
+              className="p-4 text-4xl ease-in-out duration-200 hover:text-brand-orange"
               onClick={handleNav}
             >
               <Link href="/projects">Projects</Link>
             </li>
             <li
-              className="p-4 text-4xl hover:text-brand-orange"
+              className="p-4 text-4xl ease-in-out duration-200 hover:text-brand-orange"
               onClick={handleNav}
             >
               <Link href="/resume">Resume</Link>
             </li>
             <li
-              className="p-4 text-4xl hover:text-brand-orange"
+              className="p-4 text-4xl ease-in-out duration-200 hover:text-brand-orange"
               onClick={handleNav}
             >
               <Link href="/contact">Contact</Link>
