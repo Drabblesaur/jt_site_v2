@@ -27,7 +27,7 @@ export default function About() {
 
           &emsp;Outside of work, I like to go to the gym and play video games. I also like taking <Link href="/photos" className="underline">photos</Link> and taking care of all my indoor plants!<br/><br/>
 
-          &emsp; As a new grad, I am excited to bring my education, technical skills, and creative problem-solving abilities to a fast-paced startup or growing company. I strive to continually learn and adapt to new technologies as the industry rapidly changes. I aim to build impactful products that utilize technology to improve people's lives. I'm always looking for new challenges and opportunities to grow my skill set and make a difference.
+          &emsp; As a new grad, I am excited to bring my education, technical skills, and creative problem-solving abilities to a fast-paced startup or growing company. I strive to continually learn and adapt to new technologies as the industry rapidly changes. I aim to build impactful products that utilize technology to improve people&apos;s lives. I&apos;m always looking for new challenges and opportunities to grow my skill set and make a difference.
           </p>
         </section>
       </div>
