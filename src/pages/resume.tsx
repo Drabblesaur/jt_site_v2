@@ -91,7 +91,7 @@ NumPy</div>
             <div className="border border-stone-600 p-4 rounded-[10px] bg-cocoa-dark/80">
                 <div className="flex flex-row justify-between border-b-2 border-stone-600">
                 <h3 className="text-xl text-cocoa-dark dark:text-cream font-bold">
-                    Developers' Guild
+                    Developers&apos; Guild
                 </h3>
                 <h3 className="text-xl text-cocoa-dark dark:text-cream font-bold">
                     Cupertino, California

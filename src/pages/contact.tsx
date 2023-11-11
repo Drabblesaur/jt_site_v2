@@ -12,8 +12,8 @@ export default function Contact() {
       </div>
       <div className="grid place-content-center mt-2 px-4">
         <section className="text-clip lg:w-[900px] text-center">
-          <p className="text-xl text-cocoa-dark dark:text-cream">
-            Here's all the ways you can contact me!
+          <p className="text-md text-cocoa-dark dark:text-cream font-rubik-MonoOne mb-2">
+            Here&apos;s all the ways you can contact me!
           </p>
         </section>
         <div className="w-full grid place-content-center p-2">
