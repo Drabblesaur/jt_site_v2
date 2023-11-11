@@ -2,10 +2,11 @@ import React from "react";
 import Link from "next/link";
 import { FiGithub } from "react-icons/fi";
 import { BsLinkedin } from "react-icons/bs";
+import {MdOutlineMail} from "react-icons/md"
 
 const Footer = () => {
   return (
-    <footer className="hidden sm:flex justify-between align-bottom bg-cocoa-light w-full font-rubik-MonoOne text-cream p-4">
+    <footer className="hidden sm:flex justify-between align-bottom bg-cocoa-light w-full font-rubik-MonoOne text-cream p-4 ">
       <ul>
         <li className="ml-6 ">
           <a className=" text-lg">Navigation</a>
@@ -37,6 +38,12 @@ const Footer = () => {
             <a href="https://www.linkedin.com/in/johnnyto015/" target="blank">
               {" "}
               <BsLinkedin size={32} color="white" />{" "}
+            </a>
+          </div>
+          <div className="w-[50px] h-[50px] bg-[#479F76] grid place-content-center rounded-md dark:border-2 dark:border-cocoa-light">
+            <a href="https://www.linkedin.com/in/johnnyto015/" target="blank">
+              {" "}
+              <MdOutlineMail size={32} color="white" />{" "}
             </a>
           </div>
         </div>

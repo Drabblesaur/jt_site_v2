@@ -3,35 +3,30 @@ import AboutHeader from "components/svg/about_header";
 import JTLogo from "components/svg/jt_logo";
 export default function About() {
   return (
-    <div className="container mx-auto  p-6 rounded-[10px] md:backdrop-blur-sm  md:bg-cocoa-dark/50">
+    <div className="container mx-auto mb-10 p-6 rounded-[10px] md:text-cream dark:text-cream dark:md:text-cream w-fit h-fit backdrop-blur-sm  p-6 rounded-[10px]
+    bg-cream/10 dark:bg-cocoa-dark/50">
       <div className="grid place-content-center ">
         <AboutHeader />
+      </div>
+      <div className="flex flex-col justify-items-center items-center">
+      <Image 
+        src='/../public/Profile.png'
+        width={200}
+        height={200}
+        alt="Picture of Johnny To"
+        priority
+        />
       </div>
       <div className="grid place-content-center mt-2 px-4 ">
         <section className="text-clip lg:w-[900px]">
           <p className="text-xl text-cocoa-dark md:text-cream dark:text-cream dark:md:text-cream ">
-            &emsp;Growing up in San Jose, I grew up with a love for art and
-            design and originally wanted to pursue a career in the arts. Due to
-            financial reasons I couldn't persue further in my studies; instead
-            pivoting to Computer Science. However, I found that I could still
-            express my creativity and artistic side through programming. I
-            started to learn web development and mobile development and found
-            that I really enjoyed it. I&apos;m currently working on a few
-            projects to further my skills. I aim for my projects to be
-            functional, accessible, and aesthetically pleasing. I&apos;m
-            currently looking for an internship for Fall 2023 in Software
-            Engineering, Web/Mobile Development, or UI/UX Design.
-            <br />
-            <br />
-            &emsp;I&apos;m also interested in Machine Learning and Data Science.
-            I am currently learning more about these fields and hope to apply
-            them to my projects in the future.
-            <br />
-            <br />
-            &emsp;When I&apos;m not coding, I enjoy playing video games, tending
-            to my plants, and going to the gym. I also enjoy learning about new
-            tech, art and design! If you have any questions or just want to
-            chat, feel free to reach out!
+          &emsp;Hi! My name is Johnny and I am a recent graduate from the University of California, Riverside. I have experience working with web and machine learning technologies and I'm constantly learning new frameworks and libraries to improve my skills. <br/><br/>
+
+          &emsp;I enjoy all parts of the development process, from designing the user experience and interfaces to implementing the backend services. I'm also branching towards Data Science and Mobile/Desktop Development to further my skills.<br/><br/>
+
+          &emsp;Outside of work, I like to go to the gym and play video games. I also like taking <a href="/photos" className="underline">photos</a> and taking care of all my indoor plants!<br/><br/>
+
+          &emsp; As a new grad, I am excited to bring my education, technical skills, and creative problem-solving abilities to a fast-paced startup or growing company. I strive to continually learn and adapt to new technologies as the industry rapidly changes. I aim to build impactful products that utilize technology to improve people's lives. I'm always looking for new challenges and opportunities to grow my skill set and make a difference.
           </p>
         </section>
       </div>

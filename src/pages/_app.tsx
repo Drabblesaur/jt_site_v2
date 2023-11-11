@@ -9,7 +9,7 @@ export default function App({ Component, pageProps }: AppProps) {
     <>
       <div className="flex flex-col h-screen justify-between ">
         <Navbar />
-        <div className="h-full">
+        <div className="flex-1">
           <Component {...pageProps} />
         </div>
         <div className="absolute hidden md:inline w-full h-full -z-10">

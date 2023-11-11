@@ -2,7 +2,7 @@ import * as React from "react";
 import { SVGProps } from "react";
 const JTLogo = (props: SVGProps<SVGSVGElement>) => (
   <svg
-    className=" fill-brand-orange dark:stroke-cream stroke-[4] dark:fill-none ease-in-out duration-200 hover:fill-brand-orange "
+    className="fill-brand-orange dark:stroke-cream stroke-[4] dark:fill-cocoa-dark hover:fill-brand-orange ease-in-out duration-200 "
     width={170}
     height={170}
     viewBox="-5 -5 170 170"
