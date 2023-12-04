@@ -16,33 +16,33 @@ export default function Contact() {
             Here&apos;s all the ways you can contact me!
           </p>
         </section>
-        <div className="w-full grid place-content-center p-2">
+        <div className="w-full grid place-content-center p-">
                           {/*Social Media Buttons*/}
-                          <div className="flex space-x-2 flex-row justify-items-end">
-          <div className="w-[100px] h-[100px] bg-black grid place-content-center rounded-md dark:border-2 dark:border-cocoa-light">
-            <a href="https://github.com/Drabblesaur" target="blank">
-              {" "}
-              <FiGithub size={40} color="white" />{" "}
-            </a>
-          </div>
-          <div className="w-[100px] h-[100px] bg-[#0077B5] grid place-content-center rounded-md dark:border-2 dark:border-cocoa-light">
-            <a href="https://www.linkedin.com/in/johnnyto015/" target="blank">
-              {" "}
-              <BsLinkedin size={40} color="white" />{" "}
-            </a>
-          </div>
-          <div className="w-[100px] h-[100px] bg-[#d62976] grid place-content-center rounded-md dark:border-2 dark:border-cocoa-light">
-            <a href="https://www.instagram.com/jto.su/" target="blank">
-              {" "}
-              <BsInstagram size={40} color="white" />{" "}
-            </a>
-          </div>
-          <div className="w-[100px] h-[100px] bg-[#479F76] grid place-content-center rounded-md dark:border-2 dark:border-cocoa-light">
-            <a href="mailto:jto015@ucr.edu" target="blank">
-              {" "}
-              <MdOutlineMail size={40} color="white" />{" "}
-            </a>
-          </div>
+          <div className="flex space-x-0 space-y-2 flex-col sm:flex-row space-x-2 space-y-0">
+            <div className="w-[100px] h-[100px] bg-black grid place-content-center rounded-md dark:border-2 dark:border-cocoa-light">
+              <a href="https://github.com/Drabblesaur" target="blank">
+                {" "}
+                <FiGithub size={40} color="white" />{" "}
+              </a>
+            </div>
+            <div className="w-[100px] h-[100px] bg-[#0077B5] grid place-content-center rounded-md dark:border-2 dark:border-cocoa-light">
+              <a href="https://www.linkedin.com/in/johnnyto015/" target="blank">
+                {" "}
+                <BsLinkedin size={40} color="white" />{" "}
+              </a>
+            </div>
+            <div className="w-[100px] h-[100px] bg-[#d62976] grid place-content-center rounded-md dark:border-2 dark:border-cocoa-light">
+              <a href="https://www.instagram.com/jto.su/" target="blank">
+                {" "}
+                <BsInstagram size={40} color="white" />{" "}
+              </a>
+            </div>
+            <div className="w-[100px] h-[100px] bg-[#479F76] grid place-content-center rounded-md dark:border-2 dark:border-cocoa-light">
+              <a href="mailto:jto015@ucr.edu" target="blank">
+                {" "}
+                <MdOutlineMail size={40} color="white" />{" "}
+              </a>
+            </div>
           </div>
         </div>
       </div>

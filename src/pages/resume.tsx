@@ -74,7 +74,7 @@ NumPy</div>
                 </div>
                 <div className="flex flex-row justify-between" >
                     <h4 className="italic text-l text-cocoa-dark dark:text-cream">Undergraduate Research Assistant  </h4>
-                    <h4 className="italic text-l text-cocoa-dark dark:text-cream">June 2023 - September 2023</h4>
+                    <h4 className="italic text-l text-cocoa-dark dark:text-cream">June 2021 - September 2021</h4>
                 </div>
                 <p>
                 • Build a test-bench using Numpy to experiment with ways to accelerate deep learning tasks<br/>
