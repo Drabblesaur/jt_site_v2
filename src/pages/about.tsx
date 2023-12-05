@@ -11,7 +11,7 @@ export default function About() {
       </div>
       <div className="flex flex-col justify-items-center items-center">
       <Image 
-        src='/../public/Profile.png'
+        src='/Profile.png'
         width={200}
         height={200}
         alt="Picture of Johnny To"
