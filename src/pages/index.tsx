@@ -20,7 +20,7 @@ export default function Home() {
       </Head>
       <div
         className="grid place-content-top font-rubik-MonoOne text-cocoa-dark md:text-cream dark:text-cream dark:md:text-cream w-fit h-fit backdrop-blur-sm  p-6 rounded-[10px]
-       bg-cream/10 dark:bg-cocoa-dark/50"
+       bg-cocoa-light/10 dark:bg-cocoa-dark/50"
       >
         <section className=" mb-16 text-xl">
           <p>

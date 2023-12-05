@@ -19,7 +19,7 @@ const Navbar = () => {
           <Link href="/">
             <JTLogo />
           </Link>
-          <ul className="hidden sm:flex text-cream">
+          <ul className="hidden sm:flex text-cocoa-dark md:text-cream dark:text-cream">
             <li className="p-4 ease-in-out duration-200 hover:text-brand-orange">
               <Link href="/about">About</Link>
             </li>

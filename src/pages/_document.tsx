@@ -10,7 +10,7 @@ export default function Document() {
         href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Rubik:wght@400;600&display=swap"
         rel="stylesheet"
       ></link>
-      <body className="bg-cream dark:bg-cocoa">
+      <body className="bg-cream md:bg-cocoa dark:bg-cocoa">
         <Main />
         <NextScript />
       </body>

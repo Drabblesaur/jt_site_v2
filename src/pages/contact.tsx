@@ -6,19 +6,18 @@ import {MdOutlineMail} from "react-icons/md"
 export default function Contact() {
   return (
     <div className="container mx-auto  p-6 rounded-[10px] md:text-cream dark:text-cream dark:md:text-cream w-fit h-fit backdrop-blur-sm  p-6 rounded-[10px]
-    bg-cream/10 dark:bg-cocoa-dark/50">
+    bg-cocoa-light/10 dark:bg-cocoa-dark/50">
       <div className="grid place-content-center ">
         <ContactHeader />
       </div>
       <div className="grid place-content-center mt-2 px-4">
         <section className="text-clip lg:w-[900px] text-center">
-          <p className="text-md text-cocoa-dark dark:text-cream font-rubik-MonoOne mb-2">
+          <p className="text-md font-rubik-MonoOne mb-2 text-cocoa-dark md:text-cream dark:text-cream">
             Here&apos;s all the ways you can contact me!
           </p>
         </section>
-        <div className="w-full grid place-content-center p-">
+        <div className="w-full grid grid-cols-2 gap-4 justify-items-center">
                           {/*Social Media Buttons*/}
-          <div className="flex space-x-0 space-y-2 flex-col sm:flex-row space-x-2 space-y-0">
             <div className="w-[100px] h-[100px] bg-black grid place-content-center rounded-md dark:border-2 dark:border-cocoa-light">
               <a href="https://github.com/Drabblesaur" target="blank">
                 {" "}
@@ -43,7 +42,6 @@ export default function Contact() {
                 <MdOutlineMail size={40} color="white" />{" "}
               </a>
             </div>
-          </div>
         </div>
       </div>
     </div>

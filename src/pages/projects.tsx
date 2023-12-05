@@ -6,13 +6,13 @@ import { FiGithub } from "react-icons/fi";
 export default function Projects() {
   return (
     <div className="container mx-auto mb-10 p-6 rounded-[10px] md:text-cream dark:text-cream dark:md:text-cream w-fit h-fit backdrop-blur-sm  p-6 rounded-[10px]
-    bg-cream/10 dark:bg-cocoa-dark/50">
+    bg-cocoa-light/10 dark:bg-cocoa-dark/50">
       <div className="grid place-content-center ">
         <ProjectHeader />
       </div>
       <div className="grid place-content-center mt-2 px-4 mb-2">
         <section className="text-clip text-center">
-          <p className="text-xl text-cocoa-dark dark:text-cream font-rubik-MonoOne">
+          <p className="text-xl font-rubik-MonoOne text-cocoa-dark md:text-cream dark:text-cream">
             Finished Projects
           </p>
         </section>
@@ -83,7 +83,7 @@ export default function Projects() {
 </div>
 <div className="grid place-content-center mt-2 px-4">
         <section className="text-clip text-center mb-2">
-          <p className="text-xl text-cocoa-dark dark:text-cream font-rubik-MonoOne">
+          <p className="text-xl font-rubik-MonoOne text-cocoa-dark md:text-cream dark:text-cream">
             Current Projects
           </p>
         </section>
