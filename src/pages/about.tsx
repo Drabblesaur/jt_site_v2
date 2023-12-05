@@ -15,7 +15,7 @@ export default function About() {
         width={200}
         height={200}
         alt="Picture of Johnny To"
-        priority
+        priority={true}
         />
       </div>
       <div className="grid place-content-center mt-2 px-4 ">
